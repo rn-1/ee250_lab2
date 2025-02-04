@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     /* 4. What are the input parameters and return value of socket()
-     * The input parameters are internetwork, type (stream socket), and protocol (0 means default protocol). The return value is a file descriptor int.
+     * The input parameters are domain (internetwork), type (stream socket), and protocol (0 means default protocol). The return value is a file descriptor int.
      */
 
     if (sockfd < 0)
